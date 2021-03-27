@@ -1,7 +1,9 @@
+
 import socket, os
 
 os.system('cls')
 
+###In this field where is tipe 'HERE YOUR IPV4 ADDRESS' tipe in there you IPV4 address ***DONT DELETE '' IF YOU DELETE IT SCRIPT WILL NOT DOING***
 
 print("*****************************************************************")
 print("* ╔╦╗╦═╗  ╔═╗╦═╗╔═╗═╗ ╦╦ ╦                                      *")
@@ -13,7 +15,7 @@ print("* https://www.youtube.com/c/MrProxy1                            *")
 print("*****************************************************************")
 
 
-ip = 'HERE YOUR IPV4 IP ADDRES'
+ip = '89.216.217.225'
 port_list = [20, 80, 8080, 139, 445, 23, 21, 22]
 
 for x in port_list:
