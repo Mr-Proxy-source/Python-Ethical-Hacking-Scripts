@@ -10,9 +10,9 @@ print("* ╔╦╗╦═╗  ╔═╗╦═╗╔═╗═╗ ╦╦ ╦       
 print("* ║║║╠╦╝  ╠═╝╠╦╝║ ║╔╩╦╝╚╦╝                                      *")
 print("* ╩ ╩╩╚═  ╩  ╩╚═╚═╝╩ ╚═ ╩                                       *")
 print("* Copyright of Mr.Proxy, 2021                                   *")
+print("* Tipe X if you want to LEAVE!                                  *")
 print("* https://github.com/Mr-Proxy-source                            *")
 print("* https://www.youtube.com/c/MrProxy1                            *")
-print("* Tipe x if you want to LEAVE!                                  *")
 print("*****************************************************************")
 
 while True:
