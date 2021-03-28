@@ -1,3 +1,4 @@
+
 import socket
 import os
 
@@ -11,12 +12,18 @@ print("* ╩ ╩╩╚═  ╩  ╩╚═╚═╝╩ ╚═ ╩                
 print("* Copyright of Mr.Proxy, 2021                                   *")
 print("* https://github.com/Mr-Proxy-source                            *")
 print("* https://www.youtube.com/c/MrProxy1                            *")
+print("* Tipe x if you want to LEAVE!                                  *")
 print("*****************************************************************")
 
 while True:
     site = input('Tipe hostname of site you want resolve: ')
     print("****************************************************************")
 
+    if site == 'x':
+        print('You are leaving')
+        break
+
     print(socket.gethostbyname(site))
 
     print('-' * 55)
+    
