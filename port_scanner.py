@@ -31,7 +31,7 @@ print("* https://www.youtube.com/c/MrProxy1                            *")
 print("*****************************************************************")
 
 
-ip = '89.216.217.225'
+ip = 'HERE ENTER IPV4 ADDRES WHAT YOU WANT TO SCAN'
 port_list = [20, 80, 8080, 139, 445, 23, 21, 22]
 
 for x in port_list:
