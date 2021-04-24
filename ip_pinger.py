@@ -1,5 +1,6 @@
   
 import os 
+import ip_pinger
 
 os.system('cls')
 
@@ -23,18 +24,14 @@ ___  ___      ______                      _____
     
 print("****************************************************************")
 print("* Copyright of Mr.Proxy, 2021                                  *")
-print("* Tipe X if you want to LEAVE!                                 *")
 print("* https://github.com/Mr-Proxy-source                           *")
 print("* https://www.youtube.com/c/MrProxy1                           *")
 print("****************************************************************")
 
-while True:
-    ip = input("Type IP for Ping: ")
+ip_to_check = input('Tipe IP for Ping: ')
 
-    if ip == 'x':
-        print('You are leaving')
-        break
+print('-' * 60)
+os.system('ping {}'.format(ip_to_check))
+print('-' * 60)
 
-print('-' * 55)
-os.system('ping {}'.format(ip))
-print('-' * 55)
+input('Press Enter to Ping again')
